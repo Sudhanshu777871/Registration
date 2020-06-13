@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+  <title>ShopKeepers Form</title>
+  <link rel="icon" type="image/png" href="C:\Users\sudhanshu\Desktop\freeCodeCamp-Survey-form-master\freeCodeCamp-Survey-form-master\340f5ead-152c-4799-ae12-64f365f58ee2_200x200.png"/>
+</head>
+
+<body  >
+  <div class="container" style="background-color: rgb(240, 224, 213);">
+    <header class="header">
+      
+      <h1 id="title" class="text-center" style="color: blue;font-weight: bolder;font-family:sans-serif; font-size: 40px;margin-top: 30px;">SuperX: ShopKeepers Registration Form</h1>
+     
+      <p id="description" class="description text-center">
+       Fill All The Details Truely
+      </p>
+      <hr style="border: 10px solid red;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;">
+    </header>
+    <form id="survey-form" action="connect.php" method="POST">
+      <div class="form-group">
+        <label id="name-label" for="paperInputs3">Name</label>
+        <input class="input-block" type="text" id="name" placeholder="ShopKeeper Owner Name" required name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label id="phone-label" for="paperInputs3">Phone-No</label>
+        <input class="input-block" type="phone" id="phone" placeholder="Enter The Phone Number" required name="phoneNumber">
+      </div>
+
+
+      <div class="form-group">
+        <label id="address-label" for="paperInputs3">Address</label>
+        <input class="input-block" type="address" id="address" placeholder="Enter Shop's address" required name="addressShop">
+      </div>
+
+
+      <div class="form-group">
+        <label for="employes">How Many Employes Working In Shope</label>
+        <input class="input-block" type="number" id="employes" placeholder="Enter Number Employes Working In Shop" name="employesNumber">
+      </div>
+
+      <div class="form-group">
+        <label id="ShopeNumber-label" for="paperInputs3">Shope No</label>
+        <input class="input-block" type="text" id="ShopeNo" placeholder="Enter Shope Number, If Any?" name="shopNumber">
+      </div>
+
+
+
+      <div class="form-group">
+        <label id="email-label" for="paperInputs3">Email</label>
+        <input class="input-block" type="email" id="email" placeholder="Enter a valid email address" required name="emailId">
+      </div>
+      <div class="form-group">
+        <label id="date-label" for="paperInputs3">Registration Date</label>
+        <input class="input-block" type="date" id="date" placeholder="Enter Registration Date" name="registrationDate">
+      </div>
+
+
+      <div class="form-group">
+        <label for="satisfied">Are You Satisfied With SuperX Business Model?</label>
+        <input class="input-block" type="text" id="satisfied" placeholder="Enter Yes/No" name="satisfiedFull">
+      </div>
+      
+      <button id="submit" class="btn-warning">REGISTER</button>
+    </form>
+
+    <h2 style="padding: 20px;background-color: black;color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: bolder;font-size: 30px;text-align: center;border-top: 3px solid white;">SuperX: The Trust Of Quality Service</h2>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+body {
+  background-color: #272747;
+}
+
+.header {
+  color: #ece9e6;
+  text-align: center;
+  line-height: 0.8;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+
+#survey-form {
+  background-image: linear-gradient(
+    to right,
+    #ece9e6 0%,
+    #ffffff 51%,
+    #ece9e6 100%
+  );
+}
+
+.form-group {
+  margin: 1.25rem;
+  padding: 1rem;
+}
+
+#submit {
+  margin: 0.5rem 1rem 3rem 2.5rem;
+}
